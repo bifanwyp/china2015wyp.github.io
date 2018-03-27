@@ -24,7 +24,13 @@
 }
 
 
-
+button{
+    width:60px;
+    height: 30px;
+    background: #1a75ff;
+    border-color: #1a75ff;
+    border-radius: 7px;
+}
 
 
 
