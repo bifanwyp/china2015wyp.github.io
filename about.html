@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="../css/pbulicCss/bootstrap.css"  />
     <link rel="stylesheet" href="../css/pagesCss/about.css" />
-    <script src="../node_modules/jquery/src/jquery.js"></script>
+    <script type="text/javascript">
+        function btnFn() {
+            window.location.href='/pages/3dtest.html';
+        }
+    </script>
 </head>
 <body>
 <header>
@@ -34,7 +38,7 @@
 
     </ul>
 </nav>
-
+<button id="btn" onclick="btnFn()">click me to 3D test</button>
 
 </body>
 </html>
